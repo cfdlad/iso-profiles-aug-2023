@@ -293,7 +293,7 @@ python-pip            #for pip3 installs
 python-wheel          #for pip3 installs
 #python-setuptools    #Already included in defualt install #for pip3 installs
 rust                   #for rust installs
-clementine
+#clementine
 projectm
 haruna
 neofetch              #system info (cli)
@@ -302,6 +302,8 @@ fd                    #alternative to find (cli)
 exa                   #ls replacement (cli)
 iftop                 #Network monitor (cli)
 nethogs               #Network monitor (cli)
+strawberry
+opensnitch
 
 ## Optional dependencies for file-roller
 >extra lrzip
