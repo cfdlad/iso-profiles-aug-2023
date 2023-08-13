@@ -144,7 +144,7 @@ gedit
 #gnome-nettool
 #gnome-notes
 #gnome-recipes
-#gnome-sound-recorder
+gnome-sound-recorder
 gnome-terminal
 gnome-tweaks
 #gnome-usage
@@ -159,12 +159,12 @@ gnome-tweaks
 #four-in-a-row
 >extra gnome-chess
 #gnome-klotski
-#gnome-mahjongg
+gnome-mahjongg
 >extra gnome-mines
-#gnome-2048
+gnome-2048
 #gnome-nibbles
 #gnome-robots
-#gnome-sudoku
+gnome-sudoku
 #gnome-taquin
 #gnome-tetravex
 #hitori
@@ -250,7 +250,7 @@ manjaro-settings-manager-notifier
 #mousetweaks
 >extra nautilus-admin
 nautilus-empty-file
-#>extra onlyoffice-desktopeditors  # office program is chosen during install
+>extra onlyoffice-desktopeditors  # office program is chosen during install
 #polkit-gnome                      # deprecated
 >extra power-profiles-daemon       # optional for gnome-control-center
 >extra timeshift
@@ -258,6 +258,50 @@ nautilus-empty-file
 >extra touche
 >extra webapp-manager
 xdg-utils
+
+##My Additions
+kooha
+yt-dlp              #video downloader (cli)
+youtube-dl          #video downloader (cli)
+scrcpy              #android screen mirror software (cli)
+aria2               #download manager (cli)
+axel                #download accelerator (cli)
+vlc
+blanket
+kdenlive
+handbrake
+okular
+qbittorrent
+pdfarranger
+gimp
+krita
+drawing
+kate
+lutris
+wine
+winetricks
+aisleriot
+gnome-break-timer
+blender
+gcolor3               #color picker
+audacity
+obs-studio
+inkscape
+darktable
+celluloid
+python-pip            #for pip3 installs
+python-wheel          #for pip3 installs
+#python-setuptools    #Already included in defualt install #for pip3 installs
+rust                   #for rust installs
+clementine
+projectm
+haruna
+neofetch              #system info (cli)
+code                  #visual studio code
+fd                    #alternative to find (cli)
+exa                   #ls replacement (cli)
+iftop                 #Network monitor (cli)
+nethogs               #Network monitor (cli)
 
 ## Optional dependencies for file-roller
 >extra lrzip
