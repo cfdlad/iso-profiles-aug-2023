@@ -145,7 +145,7 @@ plymouth-theme-manjaro
 
 ## KDE Applications
 ark
-#>extra digikam
+>extra digikam  #### Uncommented by me
 dolphin
 dolphin-plugins
 >extra filelight
@@ -159,7 +159,7 @@ okular
 #>extra >x86_64 libktorrent
 #>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
-#>extra kdenlive
+>extra kdenlive  #### Uncommented by me
 khelpcenter
 khotkeys
 kinit # for "Open in Terminal" action
@@ -213,18 +213,18 @@ dmidecode # for inxi -m output
 firefox
 htop
 inxi
-#>extra krita
+>extra krita  #### Uncommented by me
 #ms-office-online
 #>extra onlyoffice-desktopeditors
 #>extra freeoffice
-#>extra libreoffice-still
+>extra libreoffice-still  #### Uncommented by me
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
-#>extra qbittorrent
+>extra qbittorrent  #### Uncommented by me
 neofetch
 systemd-kcm
 plymouth-kcm
@@ -272,3 +272,66 @@ power-profiles-daemon
 ## Misc
 manjaro-hotfixes
 >basic squashfs-tools
+
+################## My Additions ##################
+
+## Apps My Additions
+yt-dlp              #video downloader (cli)
+youtube-dl          #video downloader (cli)
+scrcpy              #android screen mirror software (cli)
+aria2               #download manager (cli)
+axel                #download accelerator (cli)
+blanket
+handbrake
+pdfarranger
+drawing
+lutris
+wine
+winetricks
+aisleriot
+blender
+gcolor3               #color picker
+audacity
+strawberry
+obs-studio
+inkscape
+projectm
+haruna
+code                  #visual studio code
+fd                    #alternative to find (cli)
+exa                   #ls replacement (cli)
+iftop                 #Network monitor (cli)
+nethogs               #Network monitor (cli)
+opensnitch
+>extra simple-scan
+
+## Themes My addition
+bibata-cursor-theme
+papirus-maia-icon-theme
+
+## Matti's corner My additions (To install ranger like the gnome manjaro edition )
+>extra bmenu
+>extra manjaro-ranger-settings
+>extra pacui
+
+## Python My additions (for easy aur instal from terminal)
+python-pip            #for pip3 installs
+python-wheel          #for pip3 installs
+#python-setuptools    #Already included in defualt install #for pip3 installs
+rust
+
+## Optional dependencies for ark: My additions
+arj
+lrzip
+lzop
+unrar
+
+#Games My additions
+kmahjongg
+ksudoku
+kmines
+kbreakout
+kapman
+kreversi
+kolf
+gnome-2048
